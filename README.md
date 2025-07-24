@@ -20,7 +20,39 @@ this controls what traffic is allowed or denied on a network by matching specifi
 # Devices and Configurations
 ## Key Devices
  # . Routers:
- 
+ Routes data and manage traffic between different networks 
+
+ # . Switches:
+   Connects devices within the same network
+
+   # . Servers:
+     Serve DHCP, DNS and Web application functions
+
+   # . Endpoint Devices: 
+     PCs and laptop
+
+   # Configuration Steps
+
+   # 1. Setup the Topology:
+          . Arrange and connect router, switches and end devices 
+
+   # 2. Configure Devices:
+         . Assign static IP addresses to DHCP, DNS and web server, also create the gateway for each interface
+
+  # 3. Configure DHCP Servers:
+         . Define DHCP pools and scopes for each subnet.
+         .  Bind interfaces to their respective pools.
+         .  Enable DHCP server to assign IP addresses to end devices.
+         
+  # 4.  Apply ACLs:
+         .  Define access rules to permit/deny traffic as required.
+         .  Apply rules to the appropriate interfaces.
+
+ # 5.   Test Connectivity:
+         .  Test in browser:
+ # Device     Action                     Result
+ Laptop0      Visit http://192.168.2.4   Allowed
+ Other PCs    Visit http://192.168.2.4   Blocked 
   
 
   
