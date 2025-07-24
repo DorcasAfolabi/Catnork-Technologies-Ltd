@@ -1,4 +1,4 @@
-# Catnork-Technologies-Ltd
+# Network Segmentation with ACL Control (Case study) 
 I designed a secure internal network for improved operational efficiency for catnork technologies ltd
 
 # Project Overview
