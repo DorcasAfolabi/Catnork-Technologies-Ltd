@@ -55,4 +55,6 @@ this controls what traffic is allowed or denied on a network by matching specifi
  Other PCs    Visit http://192.168.2.4   Blocked 
   
 
+See below the report 
+ [Catnork technologies report](https://github.com/DorcasAfolabi/Catnork-Technologies-Ltd/blob/main/Network%20segmentation%20with%20ACLs%20(Catnork%20technologies%20case%20study).pdf)
   
